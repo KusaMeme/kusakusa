@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/kusa_ar.qm</file>
+        <file alias="bg">locale/kusa_bg.qm</file>
+        <file alias="de">locale/kusa_de.qm</file>
+        <file alias="en">locale/kusa_en.qm</file>
+        <file alias="es">locale/kusa_es.qm</file>
+        <file alias="fi">locale/kusa_fi.qm</file>
+        <file alias="fr">locale/kusa_fr.qm</file>
+        <file alias="it">locale/kusa_it.qm</file>
+        <file alias="ja">locale/kusa_ja.qm</file>
+        <file alias="ko">locale/kusa_ko.qm</file>
+        <file alias="nl">locale/kusa_nl.qm</file>
+        <file alias="pl">locale/kusa_pl.qm</file>
+        <file alias="pt">locale/kusa_pt.qm</file>
+        <file alias="ro">locale/kusa_ro.qm</file>
+        <file alias="ru">locale/kusa_ru.qm</file>
+        <file alias="sk">locale/kusa_sk.qm</file>
+        <file alias="th">locale/kusa_th.qm</file>
+        <file alias="tr">locale/kusa_tr.qm</file>
+        <file alias="vi">locale/kusa_vi.qm</file>
+        <file alias="zh_CN">locale/kusa_zh_CN.qm</file>
+        <file alias="zh_TW">locale/kusa_zh_TW.qm</file>
+    </qresource>
+</RCC>

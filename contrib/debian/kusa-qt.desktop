@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Kusa Core
+Comment=Kusa P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Kusa peer-to-peer Netzwerk
+Comment[fr]=Kusa, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Kusa, eşten eşe kriptografik sanal para birimi
+Exec=kusa-qt %u
+Terminal=false
+Type=Application
+Icon=kusa128
+MimeType=x-scheme-handler/kusa;
+Categories=Office;Finance;

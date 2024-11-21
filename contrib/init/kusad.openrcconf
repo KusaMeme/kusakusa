@@ -1,0 +1,33 @@
+# /etc/conf.d/kusad: config file for /etc/init.d/kusad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/kusacore/kusa.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/kusad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/kusad.pid"
+
+# Where to write kusad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/kusad"
+
+# User and group to own kusad process
+#BITCOIND_USER="kusacore"
+#BITCOIND_GROUP="kusacore"
+
+# Path to kusad executable
+#BITCOIND_BIN="/usr/bin/kusad"
+
+# Nice value to run kusad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for kusad to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

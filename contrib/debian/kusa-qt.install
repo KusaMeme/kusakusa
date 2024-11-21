@@ -1,0 +1,6 @@
+usr/local/bin/kusa-qt usr/bin
+share/pixmaps/kusa32.xpm usr/share/pixmaps
+share/pixmaps/kusa16.xpm usr/share/pixmaps
+share/pixmaps/kusa128.png usr/share/pixmaps
+debian/kusa-qt.desktop usr/share/applications
+debian/kusa-qt.protocol usr/share/kde4/services/
